@@ -1,0 +1,13 @@
+var1  = "hello world";
+print(var1);
+var2 = 4;
+var3 = 2.3;
+print(var2,var3);
+print(type(var1));
+print(type(var2));
+print(type(var3));
+var4 = " mohit";
+print(var1+var4);
+print(int(var3)+int(var2));
+print(str(int(var2)+int(var3)));
+print(var2+var3);
