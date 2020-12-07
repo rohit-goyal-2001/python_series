@@ -1,4 +1,4 @@
-mystr="good morning everyone";
+mystr="good good morning everyone";
 print(mystr)
 print(mystr[0:4]);
 print(mystr.endswith("everyone"));
@@ -16,3 +16,6 @@ print(mystr.upper())
 print(mystr[::2])
 print(mystr[::-2])
 print(mystr[-4:-2])
+print(mystr.replace('g',"G"))#str jenertae copy not cange in real str
+#string are immutable
+print(mystr)
