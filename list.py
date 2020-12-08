@@ -62,3 +62,8 @@ print(list4)
 #copy of list
 list7  = list(list4)
 print(list7) 
+print(list7[2:5])
+del list7[0]
+print(list7)
+list7[1] = "ro"
+print(list7)
